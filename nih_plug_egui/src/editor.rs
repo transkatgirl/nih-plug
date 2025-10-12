@@ -97,7 +97,7 @@ where
                     samples: None,
                     srgb: true,
                     double_buffer: true,
-                    vsync: true,
+                    vsync: false,
                     ..Default::default()
                 }),
             },
