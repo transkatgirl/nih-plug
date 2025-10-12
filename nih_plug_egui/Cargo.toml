@@ -18,7 +18,8 @@ rayon = ["egui-baseview/rayon"]
 [dependencies]
 nih_plug = { path = "..", default-features = false }
 raw-window-handle = "0.5"
-baseview = { git = "https://github.com/RustAudio/baseview.git", rev = "3724a00c970a9cd10a3494fa3c37bca66d631bb7" }
+#baseview = { git = "https://github.com/RustAudio/baseview.git", rev = "3724a00c970a9cd10a3494fa3c37bca66d631bb7" }
+baseview = { git = "https://github.com/blepfx/baseview.git", rev = "042f0c6cbc4a8befdd152f61128a2bd83d7bae12" }
 crossbeam = "0.8"
 egui-baseview = { git = "https://github.com/BillyDM/egui-baseview.git", rev = "b2a98e8ea670f0af41688902c6b94a0a39cafeec" }
 parking_lot = "0.12"
