@@ -96,8 +96,8 @@ where
                     stencil_bits: 8,
                     samples: None,
                     srgb: true,
-                    double_buffer: true,
-                    vsync: true,
+                    double_buffer: false,
+                    vsync: false,
                     ..Default::default()
                 }),
             },
